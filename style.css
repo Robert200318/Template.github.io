@@ -1,0 +1,188 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(0, 170, 8);
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+  }
+  
+  li.dropdown {
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1;}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  .search-container{
+    float: right;
+    width: 25%;
+    display: flex;
+  }
+  .search-container input{
+    margin-top: 2px;
+    margin-bottom: 2px;
+    padding: 3%;
+    height: 10px;
+    width: 70%;
+}
+
+.divbutton{
+    width: 10%;
+    height: 10px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+
+} 
+img{
+    width:100%;
+} 
+#button1{
+    width:90%;
+    padding: 0%;
+}
+#logo{
+    width: 30%;
+    height: 10%;
+}
+
+#information{
+    display: flex;
+}
+
+#info{
+  justify-content:flex-end;
+  width: 100%;
+  display: flex;
+  
+}
+
+.email{
+ 
+    width: 80%;
+    height: 10%;
+}
+#login{
+  border-radius:50px;
+  margin-top: 30%;
+  border: 3px solid blue;
+  -webkit-box-shadow:0px 0px 10px 5px #1e2be6 ;
+-moz-box-shadow:0px 0px 10px 5px #1e2be6 ;
+box-shadow:0px 0px 10px 5px #1e2be6 ;
+
+}
+.information{
+  height: 80%;
+  border-right:2px solid black;
+  margin-right: 10%;
+}
+#loginId{
+  border-right:none;
+}
+#contentH{
+  
+  margin-top:10%;
+  float: right;
+  height: 40%;
+  width: 50%;
+}
+#content{
+  width: 99vw;
+  height: 100vh;
+background-image: url("img/bg_image.jpeg");
+background-repeat: no-repeat;
+background-origin: border-box;
+
+}
+
+#p1{
+padding-bottom: 0px;
+  font-size: 3vw;
+  margin: 0;
+  color: #f1f1f1;
+}
+#p2{
+ margin: 0px;
+  font-size: 4vw;
+  color: #f1f1f1;
+}
+#p3{
+  color: #f8f8f8;
+  font-size: 1vw;
+}
+#fullbox{
+  display: flex;
+  position: fixed;
+  bottom:0;
+  height: 25vh;
+  width: 100%;
+  justify-content:center;
+
+}
+
+.minibox{
+  
+  height: 20vh;
+  width: 20%;
+  margin: 1vw;
+  
+}
+
+.pName{
+  color: #f1f1f1;
+  font-size: 2vw;
+  margin-bottom: 0px;
+  margin-left: 10%;
+}
+.pCont{
+  color: #f1f1f1;
+  font-size: 1vw;
+  margin-left: 10%;
+}
+
+#minibox1{
+  background-color: rgb(197, 175, 79);
+}
+
+#minibox2{
+  background-color: rgb(197, 175, 79);
+}
+
+#minibox3{
+  background-color: rgb(197, 175, 79);
+}
